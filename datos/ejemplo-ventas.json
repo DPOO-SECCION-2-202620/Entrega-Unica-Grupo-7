@@ -1,0 +1,49 @@
+{
+  "reservas": [],
+  "instalaciones": [],
+  "ventas": [
+    {
+      "rubro": "TIENDA",
+      "fecha": "2026-10-19",
+      "total": 238,
+      "propina": 0,
+      "detalles": [
+        {
+          "precioUnitario": 100,
+          "productoId": "A1",
+          "cantidad": 2
+        }
+      ],
+      "id": "V1"
+    }
+  ],
+  "deportes": [
+    {
+      "colectivo": false,
+      "id": "TENIS",
+      "nombre": "Tenis"
+    },
+    {
+      "colectivo": false,
+      "id": "PADEL",
+      "nombre": "Pádel"
+    },
+    {
+      "colectivo": false,
+      "id": "MESA",
+      "nombre": "Tenis de mesa"
+    }
+  ],
+  "jugadores": [],
+  "version": 1,
+  "productos": [
+    {
+      "precio": 100,
+      "tipo": "ARTICULO",
+      "categoria": "Deportes",
+      "id": "A1",
+      "stock": 11,
+      "nombre": "Balon"
+    }
+  ]
+}

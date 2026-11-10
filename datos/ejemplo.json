@@ -1,0 +1,46 @@
+{
+  "reservas": [
+    {
+      "jugadorId": "J01",
+      "modalidad": "Sencillos",
+      "inicio": "2026-11-03T10:00",
+      "fin": "2026-11-03T11:00",
+      "id": "R01",
+      "instalacionId": "I01",
+      "cantidadParticipantes": 2
+    }
+  ],
+  "instalaciones": [
+    {
+      "id": "I01",
+      "deporteId": "TENIS",
+      "capacidadMaxima": 4,
+      "nombre": "Cancha 1"
+    }
+  ],
+  "deportes": [
+    {
+      "colectivo": false,
+      "id": "TENIS",
+      "nombre": "Tenis"
+    },
+    {
+      "colectivo": false,
+      "id": "PADEL",
+      "nombre": "Pádel"
+    },
+    {
+      "colectivo": false,
+      "id": "MESA",
+      "nombre": "Tenis de mesa"
+    }
+  ],
+  "jugadores": [
+    {
+      "fechaNacimiento": "2000-05-10",
+      "id": "J01",
+      "nombre": "Ana"
+    }
+  ],
+  "version": 1
+}

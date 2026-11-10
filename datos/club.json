@@ -1,0 +1,72 @@
+{
+  "reservas": [
+    {
+      "jugadorId": "01",
+      "modalidad": "Sencillos",
+      "inicio": "2026-10-19T10:00",
+      "fin": "2026-10-19T11:00",
+      "id": "01",
+      "instalacionId": "01",
+      "cantidadParticipantes": 2
+    }
+  ],
+  "instalaciones": [
+    {
+      "id": "01",
+      "deporteId": "TENIS",
+      "capacidadMaxima": 2,
+      "nombre": "Cancha tenis"
+    }
+  ],
+  "ventas": [
+    {
+      "rubro": "TIENDA",
+      "fecha": "2026-10-19",
+      "total": 605000,
+      "propina": 10000,
+      "detalles": [
+        {
+          "precioUnitario": 250000,
+          "productoId": "01",
+          "cantidad": 2
+        }
+      ],
+      "id": "01"
+    }
+  ],
+  "deportes": [
+    {
+      "colectivo": false,
+      "id": "TENIS",
+      "nombre": "Tenis"
+    },
+    {
+      "colectivo": false,
+      "id": "PADEL",
+      "nombre": "Pádel"
+    },
+    {
+      "colectivo": false,
+      "id": "MESA",
+      "nombre": "Tenis de mesa"
+    }
+  ],
+  "jugadores": [
+    {
+      "fechaNacimiento": "2007-10-02",
+      "id": "01",
+      "nombre": "Esteban Rodriguez"
+    }
+  ],
+  "version": 1,
+  "productos": [
+    {
+      "precio": 250000,
+      "tipo": "ARTICULO",
+      "categoria": "Deporte",
+      "id": "01",
+      "stock": 8,
+      "nombre": "Raqueta"
+    }
+  ]
+}

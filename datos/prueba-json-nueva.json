@@ -1,0 +1,192 @@
+{
+  "solicitudesTurno": [],
+  "deportes": [
+    {
+      "colectivo": true,
+      "id": "FUTBOL",
+      "nombre": "Fútbol"
+    },
+    {
+      "colectivo": true,
+      "id": "BALONCESTO",
+      "nombre": "Baloncesto"
+    },
+    {
+      "colectivo": true,
+      "id": "VOLEIBOL",
+      "nombre": "Voleibol"
+    },
+    {
+      "colectivo": false,
+      "id": "TENIS",
+      "nombre": "Tenis"
+    },
+    {
+      "colectivo": false,
+      "id": "PADEL",
+      "nombre": "Pádel"
+    },
+    {
+      "colectivo": false,
+      "id": "MESA",
+      "nombre": "Tenis de mesa"
+    }
+  ],
+  "entrenamientos": [],
+  "amarillasAcumuladas": [],
+  "posesionesCalientes": [],
+  "usuariosComerciales": [
+    {
+      "identificado": true,
+      "id": "999",
+      "nombre": "Gonzalo",
+      "activo": true
+    },
+    {
+      "identificado": true,
+      "id": "002",
+      "nombre": "Diego",
+      "activo": true
+    },
+    {
+      "identificado": true,
+      "id": "003",
+      "nombre": "Fede",
+      "activo": true
+    },
+    {
+      "identificado": true,
+      "id": "107",
+      "nombre": "Julian",
+      "activo": true
+    }
+  ],
+  "cuentas": [
+    {
+      "perfiles": ["ADMINISTRADOR"],
+      "login": "999",
+      "usuarioId": "999",
+      "activa": true,
+      "hash": "B6SFk83xaKYH8lQQ6jZB3g7bmZnmvRTuWtsJ+pYezBE=",
+      "sal": "dqqoKirark8yFTZ3EsK00Q=="
+    },
+    {
+      "perfiles": ["EMPLEADO"],
+      "login": "002",
+      "usuarioId": "002",
+      "activa": true,
+      "hash": "YkJaspPkiF4QNMZjWl158wY8MJFi4e9xyWPZzRjxAUU=",
+      "sal": "HLddRgMkY5VzMrrS4va2Rg=="
+    },
+    {
+      "perfiles": ["SOCIO"],
+      "login": "003",
+      "usuarioId": "003",
+      "activa": true,
+      "hash": "vtMlb19+0BrjXEUZ87VgYJAP8EYeU0Wv+WZWymprEsE=",
+      "sal": "lu7Gk2gR+HJAl0mYZI04lw=="
+    },
+    {
+      "perfiles": ["SOCIO"],
+      "login": "456",
+      "usuarioId": "107",
+      "activa": true,
+      "hash": "RGnKSWIzOHl0fN8CmVYzTPTSpm4jLpv8mLHYCEDOM3o=",
+      "sal": "cMfU9AxDJmZwHMDxSDX6ZQ=="
+    }
+  ],
+  "usosInstalaciones": [],
+  "productos": [
+    {
+      "existencias": [
+        {
+          "ubicacion": "777",
+          "stock": 50300
+        }
+      ],
+      "precio": 3000,
+      "tipo": "BEBIDA",
+      "esCaliente": false,
+      "categoria": "cafeteria",
+      "id": "001",
+      "nombre": "Kola-roman"
+    }
+  ],
+  "equipos": [],
+  "reservas": [
+    {
+      "jugadorId": "001",
+      "modalidad": "Dobles",
+      "inicio": "2026-11-14T16:30",
+      "fin": "2026-11-14T17:30",
+      "id": "440",
+      "instalacionId": "101",
+      "cantidadParticipantes": 4
+    }
+  ],
+  "instalaciones": [
+    {
+      "techada": true,
+      "id": "101",
+      "deporteId": "TENIS",
+      "capacidadMaxima": 4,
+      "nombre": "caneca"
+    }
+  ],
+  "empleados": [
+    {
+      "id": "002",
+      "nombre": "Diego"
+    }
+  ],
+  "nominas": [],
+  "jugadores": [
+    {
+      "fechaNacimiento": "2008-06-23",
+      "correo": "",
+      "id": "001",
+      "nombre": "Camilo",
+      "movimientosRanking": [],
+      "activo": true
+    }
+  ],
+  "saldos": [
+    {
+      "compradorId": "003",
+      "saldo": 3240000
+    }
+  ],
+  "version": 5,
+  "competencias": [],
+  "partidos": [],
+  "horariosAtencion": [],
+  "suspensiones": [],
+  "mensualidades": [],
+  "ventas": [
+    {
+      "rubro": "CAFETERIA",
+      "ubicacion": "PRINCIPAL",
+      "codigoDescuento": null,
+      "descuento": 0,
+      "propina": 0,
+      "fecha": "2026-11-06",
+      "total": 1.62e8,
+      "impuesto": 1.2e7,
+      "puntosGanados": 3240000,
+      "compradorId": "003",
+      "subtotal": 1.5e8,
+      "detalles": [
+        {
+          "precioUnitario": 3000,
+          "productoId": "001",
+          "cantidad": 50000
+        }
+      ],
+      "id": "888",
+      "puntosRedimidos": 0
+    }
+  ],
+  "turnos": [],
+  "sugerencias": [],
+  "ubicaciones": ["PRINCIPAL", "777"]
+}
